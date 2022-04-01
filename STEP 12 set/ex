@@ -1,0 +1,17 @@
+a= {10,20,70,90}
+b= {10,30,40,70}
+
+print(a | b)
+print(a.union(b))
+
+print(a & b)
+print(a.intersection(b))
+
+print(a ^ b)
+print(a.symmetric_difference(b))
+
+print({10,20,70,80,90}.issuperset(a))
+print({20,30,50} <=a)
+
+print({10,30,40} <=b)
+print({10,20,30,50,70,90} >=a)
